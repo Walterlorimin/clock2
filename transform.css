@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+#box1{
+   width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: green;
+    transform: translateX(200px);
+    transform: rotatex(180deg);
+    transform: rotatey(180deg);
+    transform: rotatez(180deg);
+    transform: scalex(3);
+    transform: scalexy(3);
+    transform: skewx(45deg);
+    transform: skewy(45);
+    transform: translateX(100%)  rotatez(180deg) scalex(3);
+}
+/* for the translatex in transformation  transform: translateX(200px); negative# will move the box to the left with 100% it will move to the right, with negative -100% 
+ for the translateY  transform: translate(-50); will move the element down, positive# will move it up
+ you can use the translatex and the translateY together but you need the (x, y)values for example transform: translate(50px, 50); the 1st# is an x translation and the 2nd # is the y one

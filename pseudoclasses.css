@@ -1,0 +1,45 @@
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: rgb(131, 9, 84);
+}
+li:nth-child(odd){
+    background-color: yellow;
+}
+a:link{
+    color: blue;
+}
+a:hover{
+    color: rgb(0, 255, 0);
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(255, 115, 0);
+    font-size: 1.1em;
+}
+#greeting p{
+    background-color: blue;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+display: block;
+}
+
+li:hover{}
+    /* a: visited it is in purple color by default/*
+    }
+li:nth-child(even){
+    background-color: yellow;
+
+    li:nth-child(odd){
+    background-color: yellow;
+    li:nth-child(1){
+    background-color: yellow;
+    it can be 1to 9 based on my list or every 2nd every 3rd
+    when i want it start somewhere i will put the pace(2n,3n,4n etc + the # where i want it to start. example
+    li:nth-child(2n+ 2){
+    background-color: yellow;
+}
+

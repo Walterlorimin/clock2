@@ -1,0 +1,13 @@
+img{
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    animation-play-state: paused;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    animation-timing-function: steps(5);
+    animation-timing-function: ease-in-out;
+    animation-timing-function: cubic-bezier(0.28,-1.48, 0.54, 2.21);
+
+}

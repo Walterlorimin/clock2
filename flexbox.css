@@ -1,0 +1,56 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid black;
+    height: 90vh;
+    justify-content: flex-start;
+ 
+  
+    
+
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+   
+}
+#box1{
+    background-color: red;
+
+}
+#box2{
+    background-color: rgb(255, 238, 0);
+    align-self: start;
+}
+#box3{
+    background-color: rgb(0, 255, 115);
+}
+#box4{
+    background-color: rgb(25, 0, 255);
+}
+/*we can set the flex direction to be column, row, column-reverse, row-reverse/*
+main axes
+justify-content is flex-start by default, it can be flex-end, center, space between, space-around and space-evenly
+cross axes
+align-items: flex-start; by default it can be flex-end, center, space-top, baseline
+there is flex-wrap: wrap; there is also  flex-wrap: wrap-reverse;
+
+when i had 8 dive
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid black;
+    height: 90vh;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+
+    i can apply the align-self of the element for box1-box4

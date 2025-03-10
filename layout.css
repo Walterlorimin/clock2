@@ -1,0 +1,64 @@
+
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color: rgb(11, 6, 78);
+    border-radius: 15px;
+}
+.navbar li{
+    float: left;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(79, 146, 41);
+    text-align: center;
+    padding: 25px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(79, 146, 41);
+    text-align: center;
+    padding: 25px; 
+}
+@media screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%;
+    }
+
+}
+    

@@ -1,0 +1,143 @@
+body{
+    background-color: aquamarine;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideleft;
+animation-duration: 2s;
+animation-iteration-count: 3;
+animation-direction: normal;
+animation-play-state: paused;
+animation-play-state: running;
+animation-timing-function: linear;
+animation-timing-function: steps(5);
+animation-timing-function: ease-in-out;
+animation-timing-function: cubic-bezier(0.28,-1.48, 0.54, 2.21);
+   
+  
+}
+img{
+animation-name: slideleft;
+animation-duration: 2s;
+animation-iteration-count: 3;
+animation-direction: normal;
+animation-play-state: paused;
+animation-play-state: running;
+animation-timing-function: linear;
+animation-timing-function: steps(5);
+animation-timing-function: ease-in-out;
+animation-timing-function: cubic-bezier(0.28,-1.48, 0.54, 2.21);
+}
+
+
+
+@keyframes slideleft{
+    from{transform: translateX(200%)}
+
+}
+
+@keyframes slideright{
+    to{transform: translateX(200%)}
+
+}
+@keyframes slideup{
+    from{transform: translatey(200%)}
+
+}
+@keyframes slidedown{
+    to{transform: translatey(200%)}
+
+}
+@keyframes rotate{
+    100%{transform: rotatex(360deg)}
+
+}
+@keyframes rotate{
+    50%{transform: rotateZ(360deg)}
+
+}
+@keyframes grow{
+    100%{transform: scale(2, 2)}
+
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5)}
+
+}
+@keyframes fade{
+    50%{opacity: 0;}
+
+}
+@keyframes colorchange{
+    0%{ background-color: green;}
+    20%{ background-color: red;}
+    40%{ background-color: blue;}
+    60%{ background-color: purple;}
+    80%{ background-color: gray;}
+    100%{ background-color: pink;}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+}
+
+/* i can also apply it with the pseudo element like hover and active
+
+#box:hover{
+    animation-name: glow;
+    animation-duration: 3s;
+}
+@keyframes slideleft{
+    from{transform: translateX(200%)}
+
+}
+
+@keyframes slideright{
+    to{transform: translateX(200%)}
+
+}
+@keyframes slideup{
+    from{transform: translatey(200%)}
+
+}
+@keyframes slidedown{
+    to{transform: translatey(200%)}
+
+}
+@keyframes rotate{
+    100%{transform: rotatex(360deg)}
+
+}
+@keyframes rotate{
+    50%{transform: rotateZ(360deg)}
+
+}
+@keyframes grow{
+    100%{transform: scale(2, 2)}
+
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5)}
+
+}
+@keyframes fade{
+    50%{opacity: 0;}
+
+}
+@keyframes colorchange{
+    0%{ background-color: green;}
+    20%{ background-color: red;}
+    40%{ background-color: blue;}
+    60%{ background-color: purple;}
+    80%{ background-color: gray;}
+    100%{ background-color: pink;}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+
+    we can set the as animation-iteration-count: infinite; it will apply nonestop
+     we can set the as animation-direction: normal; it can be reverse it can also be alternate it means sliding left and right at the same time, it can also be aternate-reverse
+}

@@ -1,0 +1,26 @@
+#go{
+    text-align: center;
+    display: block;
+}
+#clock{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+#increaseBtn{
+    background-color: blue;
+    border-radius: 25px;
+}
+#decreaseBtn{
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+#resetBtn{
+    background-color: brown;
+    border-radius: 25px
+}
+#resetBtn:hover{
+    background-color: black;
+    font-size: 30px;
+    
+}

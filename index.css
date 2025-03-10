@@ -1,0 +1,25 @@
+body{
+    background-image: url(newyo.jpg);
+  background-size: cover;
+    
+   
+    margin: 0;
+}
+#clockcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#clock{
+    font-family: monospace;
+    font-size: 80px;
+    font-weight: bold;
+   text-align: center;
+   backdrop-filter: blur(5px);
+ color: darkgreen;
+ background-color: hsl(0, 0x, 100%,m,ld);
+ width: 100%
+
+}

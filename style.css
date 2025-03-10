@@ -1,0 +1,169 @@
+
+body{
+  margin: 0px;
+}
+h1 {
+    text-shadow: 3px 3px 5px rgb(255, 0, 64), -3px -3px 5px rgb(47, 0, 255);
+    text-align: center;
+  }
+
+
+h1{
+    
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    border-radius: 20px;
+ }
+ p{
+     border-bottom: 3px solid rgb(0, 255, 64);
+     border-top: 3px solid rgb(28, 0, 128);
+     border-right: 3px dotted rgb(255, 0, 21);
+     border-left: 3px dotted rgb(205, 138, 50);
+    
+ }
+ #image2{
+  margin-bottom: 30px;
+ }
+ div{
+ 
+ }
+ button:hover{
+  color: rgb(0, 255, 0);
+  font-size: 1.1em;
+}
+button:active{
+  color: rgb(255, 115, 0);
+  font-size: 1.1em;
+}
+button{
+  background-color: slategray;
+}
+
+a:hover{
+  color: rgb(0, 255, 0);
+  font-size: 1.1em;
+}
+a:active{
+  color: rgb(255, 115, 0);
+  font-size: 1.1em;
+}
+p::selection{
+  color: rgb(0, 128, 21);
+  background-color: grey;
+}
+#wal li::marker{
+  content: "✅";
+  font-size: 1.2em;
+}
+.pagination{
+  background-color: rgb(17, 131, 22);
+  text-align: center;
+}
+.pagination a{
+  color: black;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+}
+.pagination a.active{
+  background-color: blue;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+  background-color: grey;
+  border-radius: 5px;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: gray;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+
+}
+.navbar a:hover{
+  background-color: rgb(11, 6, 78);
+  border-radius: 15px;
+}
+.navbar li{
+  float: left;
+}
+.gallery .description{
+  padding: 10px;
+  text-align: center;
+}
+.icon{
+  text-align: center;
+
+}
+.icon a{
+  text-decoration: none;
+  margin-right: 15px;
+}
+.fa-solid.fa-whatsapp.fa-2x{
+  color: rgb(0, 255, 85);
+
+}
+.fa-solid.fa-whatsapp.fa-2x:hover{
+  color: rgb(0, 221, 255)
+
+}
+
+.fa-brands.fa-youtube.fa-2x{
+  color: hsl(0, 100%, 50%);
+  
+}
+.fa-brands.fa-youtube.fa-2x:hover{
+  color: hsl(0, 100%, 80%);
+  
+}
+.fa-brands.fa-facebook.fa-2x{
+  color: rgb(38, 0, 255)
+  
+}
+.fa-brands.fa-facebook.fa-2x:hover{
+  color: rgb(0, 119, 255)
+  
+}
+.fa-brands.fa-instagram.fa-2x{
+  color: pink
+}
+.fa-brands.fa-instagram.fa-2x:hover{
+  color: rgb(255, 0, 140)
+}
+.fa-brands.fa-tiktok.fa-2x{
+  color: black;
+  
+  
+  }
+  .fa-brands.fa-tiktok.fa-2x:hover{
+      color: gray;
+      
+      
+      }
+  .fa-brands.fa-twitter.fa-2x{
+      color: rgb(0, 221, 255)
+      
+  }
+  .fa-brands.fa-twitter.fa-2x:hover{
+      color: rgb(4, 0, 255)
+    
+      
+  }
+
+
+
+
+
+
+  
