@@ -1,5 +1,6 @@
 
 body{
+  background-size: cover;
   margin: 0px;
 }
 h1 {
@@ -23,9 +24,11 @@ h1{
     
  }
  #image2{
+  
   margin-bottom: 30px;
  }
  div{
+  
  
  }
  button:hover{

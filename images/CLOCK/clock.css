@@ -1,6 +1,6 @@
 body{
 background-image: url(new-york-city-at-night.jpg);
-background-size: cover;
+background-size:cover;
 margin :0;}
 #clockcontainer{
     display: flex;
