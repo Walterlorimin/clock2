@@ -1,23 +1,22 @@
-
-import {PI, getCircumfence, getArea,getVolume} from'./mathutil.js'
-
-console.log(PI);
-
-const circumference= getCircumfence(10);
-const area= getArea(10);
+let buttons= document.querySelectorAll(".mybuttons")
 
 
-console.log(`${circumference.toFixed(2)}cm`)
+buttons.forEach(function(button){
+    button.style.backgroundColor="green"
+    buttons.textContent+="😍"
 
-console.log(`${area.toFixed(2)}cm^2`)
+
+})
+const newButn= document.createElement("button")
+newButn.textContent="button 5";
+newButn.classList.add("mybuttons")
+document.body.appendChild(newButn)
+
+
+
     
 
 
-
-
-
-
-    
 
 
 
